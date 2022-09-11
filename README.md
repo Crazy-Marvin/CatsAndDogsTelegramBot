@@ -1,33 +1,34 @@
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Crazy-Marvin/cats_n_dogs/CI/development)](https://github.com/Crazy-Marvin/cats_n_dogs/actions)
-[![License](https://img.shields.io/github/license/Crazy-Marvin/cats_n_dogs.svg)](https://github.com/Crazy-Marvin/cats_n_dogs/blob/development/LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/Crazy-Marvin/cats_n_dogs.svg?style=flat)](https://github.com/Crazy-Marvin/cats_n_dogs/commits)
-[![Releases](https://img.shields.io/github/downloads/Crazy-Marvin/cats_n_dogs/total.svg?style=flat)](https://github.com/Crazy-Marvin/cats_n_dogs/releases)
-[![Latest tag](https://img.shields.io/github/tag/Crazy-Marvin/cats_n_dogs.svg?style=flat)](https://github.com/Crazy-Marvin/cats_n_dogs/tags)
-[![Issues](https://img.shields.io/github/issues/Crazy-Marvin/cats_n_dogs.svg?style=flat)](https://github.com/Crazy-Marvin/cats_n_dogs/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/Crazy-Marvin/cats_n_dogs.svg?style=flat)](https://github.com/Crazy-Marvin/cats_n_dogs/pulls)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/379c59381e784f42b5910864e574bd8e)](https://www.codacy.com/gh/Crazy-Marvin/cats_n_dogs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Crazy-Marvin/cats_n_dogs&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/Crazy-Marvin/cats_n_dogs/branch/master/graph/badge.svg)](https://codecov.io/gh/Crazy-Marvin/cats_n_dogs)
-[![Known Vulnerabilities](https://snyk.io/test/github/Crazy-Marvin/cats_n_dogs/badge.svg?targetFile=bot.py)](https://snyk.io/test/github/Crazy-Marvin/cats_n_dogs?targetFile=bot.py)
+[![Telegram Cats & Dogs Bot](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://telegram.me/cats_n_dogs_bot)
+[![GitHub Actions](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/actions/workflows/ci.yml/badge.svg)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/actions/workflows/ci.yml)
+![healthchecks.io](https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F396c7d03-faf7-4562-9f83-1194d0%2Fn-TwoPva%2FCatsAndDogs.shields)
+[![License](https://img.shields.io/github/license/Crazy-Marvin/CatsAndDogsTelegramBot)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/blob/trunk/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Crazy-Marvin/CatsAndDogsTelegramBot.svg?style=flat)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/commits)
+[![Releases](https://img.shields.io/github/downloads/Crazy-Marvin/CatsAndDogsTelegramBot/total.svg?style=flat)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/releases)
+[![Latest tag](https://img.shields.io/github/tag/Crazy-Marvin/CatsAndDogsTelegramBot.svg?style=flat)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/tags)
+[![Issues](https://img.shields.io/github/issues/Crazy-Marvin/CatsAndDogsTelegramBot.svg?style=flat)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/Crazy-Marvin/CatsAndDogsTelegramBot.svg?style=flat)](https://github.com/Crazy-Marvin/CatsAndDogsTelegramBot/pulls)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d6eb9ee5488548dca0536ecd93e16ae0)](https://www.codacy.com/gh/Crazy-Marvin/CatsAndDogsTelegramBot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Crazy-Marvin/CatsAndDogsTelegramBot&amp;utm_campaign=Badge_Grade)
+[![Dependabot](https://badgen.net/badge/icon/dependabot?icon=dependabot&label)](https://python.org/)
+[![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Crazy-Marvin/CatsAndDogsTelegramBot)](https://app.snyk.io/org/crazymarvin/project/e58b3418-2609-4731-b629-6812069fdb73)
+[![Telegram Cats & Dogs Bot](https://img.shields.io/badge/Python-yellow?logo=python)](https://telegram.me/cats_n_dogs_bot)
 
 # Cats & Dogs
 
-This [Telegram](https://telegram.org/) bot can show you some cats and/or dogs.
+This [bot](https://telegram.me/cats_n_dogs_bot) can show you some cats and/or dogs.
 
-## Screenshots
+__TO DO: insert .gif__
 
-_TODO_
+### Requirements
 
-## Setup
+- Token from [@Botfather](https://telegram.me/botfather)
+- SSL certificate (I recommend [Let's Encrypt](https://letsencrypt.org/))
+- Webserver running [Python](https://www.python.org) (tested with [Apache](https://httpd.apache.org/) & [NGINX](https://www.nginx.com/) but others should work too)
+- API key from Product Hunt
+- Google Cloud service account credentials (JSON) for accessing Google Sheets API & Google Drive API
+- [Sentry](https://docs.sentry.io/platforms/python/) key (optional)
+- [Healthchecks](https://healthchecks.io/#php) URL (optional)
 
-- Install Python 3 on your machine
-- pip install python-telegram-bot --upgrade
-- Get a token from [@Botfather](https://telegram.me/botfather)
-
-## Contributing
-
-Please read [```CONTRIBUTING.md```](https://github.com/Crazy-Marvin/cats_n_dogs/blob/master/.github/CONTRIBUTING.md) and [```CODE_OF_CONDUCT.md```](https://github.com/Crazy-Marvin/cats_n_dogs/blob/master/.github/CODE_OF_CONDUCT.md) for details.
-
-## Built With
+### Built With
 
 - [CATAAS](https://cataas.com/)
 - [TheCatAPI](https://thecatapi.com/)
@@ -39,6 +40,12 @@ Please read [```CONTRIBUTING.md```](https://github.com/Crazy-Marvin/cats_n_dogs/
 
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
-## License
+### Contributing
 
-This project is licensed under the MIT License - see the [```LICENSE```](https://github.com/Crazy-Marvin/cats_n_dogs/blob/master/LICENSE) file for details
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+More details may be found in the [CONTRIUBTING.md](https://github.com/Crazy-Marvin/ProductHuntTelegramBot/tree/trunk/.github/CONTRIBUTING.md).
+
+### License
+
+[MIT](https://choosealicense.com/licenses/mit/)
